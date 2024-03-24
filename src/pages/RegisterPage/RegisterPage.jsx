@@ -27,7 +27,7 @@ const RegisterPage = () => {
     };
 
     return (
-        <div className="container mx-auto mt-16 max-w-[1170px] grid grid-cols-2">
+        <div className="container mx-auto mt-16 max-w-[1170px] grid grid-cols-2 items-center">
             <img src={RegisterGif} alt="" />
             <form onSubmit={handleSubmit} className="w-full mx-auto px-10 pl-16">
                 <img src={AvatarImage} className="w-24 mx-auto mb-4"/>

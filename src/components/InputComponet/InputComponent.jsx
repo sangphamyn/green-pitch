@@ -14,7 +14,7 @@ const InputComponent = ({ label, type, value, onChange, placeholder, name, icon 
                     onChange={onChange}
                     placeholder={placeholder}
                     name={name}
-                    className="appearance-none border-b border-[#e5e7eb] outline-none w-full py-2 text-gray-700 leading-tight"
+                    className="appearance-none border-b border-[#e5e7eb] outline-none w-full py-2 text-gray-700 leading-tight focus:border-black transition"
                 />
             </div>
         </div>

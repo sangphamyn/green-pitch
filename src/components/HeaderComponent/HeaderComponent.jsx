@@ -13,6 +13,7 @@ const Header = () => {
                       <div className="flex items-center">
                         <a href="/" className="header-logo mr-20 flex items-center">
                           <img src={logo}/>
+                          <span className='ml-4 font-bold text-xl'>Green Pitch</span>
                         </a>
                         <div className="header-menu">
                           <div className="header-menu__content">
@@ -20,7 +21,7 @@ const Header = () => {
                               <ul className="menu__nav flex">
                                 <li className=" menu-item-has-children relative mr-8">
                                   <a href="#" className="flex items-center px-2 py-3">
-                                    <span className="mr-3">Home</span><FaAngleDown />
+                                    <span className="mr-3">Trang chủ</span><FaAngleDown />
                                   </a>
                                   <ul className="subnav absolute bg-slate-500 hidden">
                                     <li className=""><a href="/">Home 01</a></li>
@@ -64,8 +65,8 @@ const Header = () => {
                     </div>
                     <div className="col-auto">
                       <div className="flex items-center gap-4">
-                        <a href="/register" className="button px-8 h-12 flex items-center rounded bg-white text-black">Register</a>
-                        <a href="/login" className="button px-8 h-12 flex items-center rounded border text-white border-white transition-all hover:bg-white hover:text-black">Sign In</a>
+                        <a href="/register" className="button px-8 h-12 flex items-center rounded bg-white text-black">Đăng ký</a>
+                        <a href="/login" className="button px-8 h-12 flex items-center rounded border text-white border-white transition-all hover:bg-white hover:text-black">Đăng nhập</a>
                       </div>
                     </div>
                   </div>

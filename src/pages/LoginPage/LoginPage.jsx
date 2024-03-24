@@ -3,6 +3,8 @@ import Input from '../../components/InputComponet/InputComponent'
 import AvatarImage from '../../assets/images/avatar.svg'
 import RegisterGif from '../../assets/images/signup.gif'
 import ButtonComponent from '../../components/ButtonComponent/ButtonComponent';
+import loginVideo from '../../assets/images/girl-login-on-tablet.mp4';
+import Video from '../../components/VideoComponent/VideoComponent';
 
 const LoginPage = () => {
     const [formData, setFormData] = useState({
@@ -27,16 +29,16 @@ const LoginPage = () => {
     };
 
     return (
-        <div className="container mx-auto mt-16 max-w-[1170px] grid grid-cols-2">
-            <img src={RegisterGif} alt="" />
+        <div className="container mx-auto mt-16 max-w-[1170px] grid grid-cols-2 items-center">
+            <img src={RegisterGif} />
             <form onSubmit={handleSubmit} className="w-full mx-auto px-10 pl-16">
                 <img src={AvatarImage} className="w-24 mx-auto mb-4"/>
                 <h1 className="text-2xl font-semibold mb-4 text-center">ĐĂNG NHẬP</h1>
                 <p className='text-center mb-6'>Chưa có tài khoản? <a href="/register" className='sang-underline relative'>Đăng ký</a> ngay</p>
                 <Input
-                    label="Email"
-                    type="email"
-                    name="email"
+                    label="Email / Số điện thoại"
+                    type="text"
+                    name="username"
                     value={formData.email}
                     onChange={handleChange}
                 />
