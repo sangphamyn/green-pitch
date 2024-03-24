@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { routes } from './routes/index'
 import Header from './components/HeaderComponent/HeaderComponent';
@@ -13,7 +13,7 @@ const App = () => {
                 return (
                 <Route key={route.path} path={route.path} element={
                     <div>
-                        <Header/>
+                        <Layout/>
                         <Page />
                     </div>
                 } />

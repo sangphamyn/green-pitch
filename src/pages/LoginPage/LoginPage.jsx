@@ -3,8 +3,6 @@ import Input from '../../components/InputComponet/InputComponent'
 import AvatarImage from '../../assets/images/avatar.svg'
 import RegisterGif from '../../assets/images/signup.gif'
 import ButtonComponent from '../../components/ButtonComponent/ButtonComponent';
-import loginVideo from '../../assets/images/girl-login-on-tablet.mp4';
-import Video from '../../components/VideoComponent/VideoComponent';
 
 const LoginPage = () => {
     const [formData, setFormData] = useState({
