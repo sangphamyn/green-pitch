@@ -327,6 +327,90 @@ const FootballFieldForm = () => {
           className="border border-gray-400 px-4 py-2 w-full"
         />
       </div>
+      <div className="form-control">
+        <label className="label cursor-pointer justify-start gap-4 items-center">
+          <input
+            type="checkbox"
+            defaultChecked
+            className="checkbox checkbox-primary rounded"
+          />
+          <span className="label-text">Nước đá</span>
+          <div className="div">
+            <input
+              type="number"
+              id="priceService"
+              // value={priceService}
+              // onChange={onChange}
+              placeholder="Giá"
+              // name={name}
+              className="border border-gray-300 outline-none shadow p-2 w-full rounded focus:border-[#13357b] transition-all"
+            />
+          </div>
+        </label>
+      </div>
+      <div className="form-control">
+        <label className="label cursor-pointer justify-start gap-4 items-center">
+          <input
+            type="checkbox"
+            defaultChecked
+            className="checkbox checkbox-primary rounded"
+          />
+          <span className="label-text">Nước đá</span>
+          <div className="div">
+            <input
+              type="number"
+              id="priceService"
+              // value={priceService}
+              // onChange={onChange}
+              placeholder="Giá"
+              // name={name}
+              className="border border-gray-300 outline-none shadow p-2 w-full rounded focus:border-[#13357b] transition-all"
+            />
+          </div>
+        </label>
+      </div>
+      <div className="form-control">
+        <label className="label cursor-pointer justify-start gap-4 items-center">
+          <input
+            type="checkbox"
+            defaultChecked
+            className="checkbox checkbox-primary rounded"
+          />
+          <span className="label-text">Nước đá</span>
+          <div className="div">
+            <input
+              type="number"
+              id="priceService"
+              // value={priceService}
+              // onChange={onChange}
+              placeholder="Giá"
+              // name={name}
+              className="border border-gray-300 outline-none shadow p-2 w-full rounded focus:border-[#13357b] transition-all"
+            />
+          </div>
+        </label>
+      </div>
+      <div className="form-control">
+        <label className="label cursor-pointer justify-start gap-4 items-center">
+          <input
+            type="checkbox"
+            defaultChecked
+            className="checkbox checkbox-primary rounded"
+          />
+          <span className="label-text">Nước đá</span>
+          <div className="div">
+            <input
+              type="number"
+              id="priceService"
+              // value={priceService}
+              // onChange={onChange}
+              placeholder="Giá"
+              // name={name}
+              className="border border-gray-300 outline-none shadow p-2 w-full rounded focus:border-[#13357b] transition-all"
+            />
+          </div>
+        </label>
+      </div>
       <ButtonComponent
         label="Tạo"
         className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-lg px-5 py-3 text-center w-full dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

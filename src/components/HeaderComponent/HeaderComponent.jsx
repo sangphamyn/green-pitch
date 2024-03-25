@@ -96,16 +96,16 @@ const Header = () => {
             <div className="col-auto">
               <div className="flex items-center gap-4">
                 <a
-                  href="/register"
+                  href="/manager"
                   className="button px-8 h-12 flex items-center rounded bg-white text-black"
                 >
-                  Đăng ký
+                  Dành cho chủ sân
                 </a>
                 <a
                   href="/login"
                   className="button px-8 h-12 flex items-center rounded border text-white border-white transition-all hover:bg-white hover:text-black"
                 >
-                  Đăng nhập
+                  Đăng ký/Đăng nhập
                 </a>
               </div>
             </div>
