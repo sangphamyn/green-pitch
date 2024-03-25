@@ -9,6 +9,7 @@ const InputComponent = ({
   name,
   icon,
   className,
+  padding
 }) => {
   return (
     <div className={className}>
@@ -19,7 +20,7 @@ const InputComponent = ({
         type={type}
         onChange={onChange}
         id={label}
-        name="name"
+        name={name}
         value={value}
         placeholder={placeholder ?? label}
         className="border border-gray-300 outline-none shadow p-3 w-full rounded focus:border-[#13357b] transition-all"

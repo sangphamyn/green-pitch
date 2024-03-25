@@ -32,7 +32,7 @@ const FootballFieldForm = () => {
       {
         pitch_type: "",
         quantity: "",
-        description: "",
+        pitch_description: "",
         timeSlots: [],
       },
     ]);
@@ -126,7 +126,7 @@ const FootballFieldForm = () => {
   };
 
   return (
-    <div className="container mx-auto mt-16 max-w-[1170px]">
+    <div className="container mx-auto mt-16 max-w-[1000px]">
       <h1 className="text-2xl font-semibold mb-4 text-center">Tạo Sân Bóng</h1>
       <div className="mb-8">
         <Input1
@@ -220,8 +220,8 @@ const FootballFieldForm = () => {
               <Input1
                 label="Mô tả"
                 type="text"
-                value={field.description}
-                name="description"
+                value={field.pitch_description}
+                name="pitch_description"
                 onChange={(e) => handleFieldChange(index, e)}
                 placeholder="Mô Tả"
                 className="w-full"
