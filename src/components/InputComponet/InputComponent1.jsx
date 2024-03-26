@@ -9,11 +9,11 @@ const InputComponent = ({
   name,
   icon,
   className,
-  padding
+  padding,
 }) => {
   return (
     <div className={className}>
-      <label for={label} className="block mb-2 font-bold text-gray-600">
+      <label htmlFor={label} className="block mb-2 font-bold text-gray-600">
         {label}
       </label>
       <input

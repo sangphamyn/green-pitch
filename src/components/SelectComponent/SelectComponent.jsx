@@ -3,7 +3,7 @@ import React from "react";
 function SelectOption({ options, onChange, label, value, name }) {
   return (
     <div>
-      <label for={label} className="block mb-2 font-bold text-gray-600">
+      <label htmlFor={label} className="block mb-2 font-bold text-gray-600">
         {label}
       </label>
       <div className="relative mb-2 flex items-center after:w-[8px] after:h-[8px] after:border-black/70 after:border-b after:border-r after:transform after:rotate-45 after:absolute after:right-4">
