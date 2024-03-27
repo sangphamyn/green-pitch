@@ -38,21 +38,31 @@ function ManagerSidebar() {
             Trang chủ
           </NavLink>
 
-          <a
-            href="#"
-            className="flex gap-3 items-center px-6 py-2.5 text-gray-600 hover:text-orange-600 hover:bg-orange-100 group transition"
+          <NavLink
+            to="/manager/schedule"
+            className={({ isActive }) =>
+              "flex gap-3 items-center px-6 py-2.5 text-gray-600 hover:bg-orange-100 hover:text-orange-600 group transition " +
+              (isActive
+                ? "bg-orange-500 hover:bg-orange-500 text-white hover:text-white"
+                : "")
+            }
           >
             <IoCalendarOutline />
             Lịch sân
-          </a>
+          </NavLink>
 
-          <a
-            href="#"
-            className="flex gap-3 items-center px-6 py-2.5 text-gray-600 hover:text-orange-600 hover:bg-orange-100 group transition"
+          <NavLink
+            to="/manager/statistic"
+            className={({ isActive }) =>
+              "flex gap-3 items-center px-6 py-2.5 text-gray-600 hover:bg-orange-100 hover:text-orange-600 group transition " +
+              (isActive
+                ? "bg-orange-500 hover:bg-orange-500 text-white hover:text-white"
+                : "")
+            }
           >
             <IoAnalytics />
             Thống kê
-          </a>
+          </NavLink>
         </div>
 
         <div className="mb-10">
@@ -71,19 +81,6 @@ function ManagerSidebar() {
           >
             <MdOutlineStadium />
             Cụm sân
-          </NavLink>
-
-          <NavLink
-            to="/manager/pitch-price"
-            className={({ isActive }) =>
-              "flex gap-3 items-center px-6 py-2.5 text-gray-600 hover:bg-orange-100 hover:text-orange-600 group transition " +
-              (isActive
-                ? "bg-orange-500 hover:bg-orange-500 text-white hover:text-white"
-                : "")
-            }
-          >
-            <MdOutlinePriceChange />
-            Sân và giá
           </NavLink>
 
           <a

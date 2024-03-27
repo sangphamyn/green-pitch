@@ -96,7 +96,7 @@ const FootballFieldForm = () => {
   const renderMinutesOptions = () => {
     const minutes = [];
     let a = {};
-    for (let i = 0; i < 60; i += 15) {
+    for (let i = 0; i < 60; i += 5) {
       a = {};
       a.value = i;
       a.label = i < 10 ? `0${i}` : i;
@@ -138,7 +138,9 @@ const FootballFieldForm = () => {
 
   return (
     <div className="container mx-auto mt-16 max-w-[1000px]">
-      <h1 className="text-2xl font-semibold mb-4 text-center">Tạo Sân Bóng</h1>
+      <h1 className="text-2xl font-semibold mb-4 text-center">
+        Sửa Sân Thanh Niên
+      </h1>
       <div className="grid grid-cols-2 w-full sang-tab">
         <div
           onClick={changeTab1}
@@ -326,7 +328,7 @@ const FootballFieldForm = () => {
             </label>
           </div>
           <ButtonComponent
-            label="Tạo"
+            label="Cập nhật"
             className="text-white mt-8 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-lg px-5 py-3 text-center w-full dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           />
         </div>
@@ -476,7 +478,7 @@ const FootballFieldForm = () => {
             </button>
           </div>
           <ButtonComponent
-            label="Tạo"
+            label="Cập nhật"
             className="text-white mt-8 bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-lg px-5 py-3 text-center w-full dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           />
         </div>

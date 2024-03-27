@@ -5,6 +5,7 @@ import { IoCarOutline } from "react-icons/io5";
 import { LuGlassWater } from "react-icons/lu";
 import { IoShirtOutline } from "react-icons/io5";
 import { PiMoneyLight } from "react-icons/pi";
+import { FaRegClock } from "react-icons/fa";
 
 import { CiEdit } from "react-icons/ci";
 
@@ -13,7 +14,7 @@ function GroupPitchDetailPage() {
     <div>
       <div className="inline-flex shadow-sm" role="group">
         <a
-          href="/manager/group-pitch/add"
+          href="/manager/group-pitch/edit"
           type="button"
           className="inline-flex gap-2 items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white  border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10  focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:text-white"
         >
@@ -88,6 +89,240 @@ function GroupPitchDetailPage() {
           loading="lazy"
           className="w-full h-full"
         ></iframe>
+      </div>
+      <div className="px-20 py-5">
+        <h1>Lịch và giá</h1>
+        {/* <div>
+          <div>
+            <div>Sân Loại A (4 sân)</div>
+            <div>
+              <div className="grid grid-cols-12">
+                <div className="grid grid-cols-2">
+                  <div>0</div>
+                  <div>
+                    <span className="-translate-x-1/2">1</span>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>2</div>
+                  <div>3</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>4</div>
+                  <div>5</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>6</div>
+                  <div>7</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>8</div>
+                  <div>9</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>10</div>
+                  <div>11</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>12</div>
+                  <div>13</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>14</div>
+                  <div>15</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>16</div>
+                  <div>17</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>18</div>
+                  <div>19</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>20</div>
+                  <div>21</div>
+                </div>
+                <div className="grid grid-cols-2">
+                  <div>22</div>
+                  <div>23</div>
+                </div>
+              </div>
+              <div className="w-full h-2 bg-black relative">
+                <div className="w-[6.25%] h-2 bg-green-600 absolute left-[20.83%]"></div>
+              </div>
+            </div>
+          </div>
+        </div> */}
+        <div>
+          <div>
+            <div className="flex gap-4">
+              <div className="shrink-0">Sân Loại A (4 sân)</div>
+              <div className="flex flex-wrap gap-2">
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+                <div className="border rounded-md px-3 py-2 text-sm">
+                  <div className="flex items-center justify-center gap-2">
+                    <FaRegClock />
+                    05:00 - 06:30
+                  </div>
+                  <div className="flex items-center justify-center gap-2">
+                    <PiMoneyLight />
+                    480.000đ
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
